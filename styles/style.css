@@ -1,0 +1,558 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap')
+
+/* General body styling */
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  margin-top: 0px;
+  padding-top: 0px;
+  box-sizing: border-box;
+}
+
+
+/* Header Section */
+
+/* Header styling for Docplanner image */
+header img {
+  width: 272px;
+  height: 35px;
+}
+
+/* General header styling in header section*/
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  background-color: white;
+  z-index: 10;
+}
+
+/* Navbar styling */
+.navbar {
+  display: flex;
+  gap: 24px;
+}
+
+/* Color styling for navbar items on hover */
+#About,
+#Career:hover,
+#Departments:hover {
+  color: #00b39b;
+  text-decoration: none;
+}
+
+/* Color styling for navbar items without hover */
+#Career,
+#Departments {
+  color: #ababab;
+}
+
+/* General styling for navbar items */
+.navbar {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* Color styling for header logo */
+#headerlogo {
+  width: 40px;
+  aspect-ratio: auto 40 / 40;
+  height: 40px;
+}
+
+
+/* Main Section */
+
+/* General styling for Main Section */
+.mainSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 80px;
+  padding-top: 100px;
+}
+
+/* General styling for Headline paragraph with id = headlinepara */
+#headlinePara {
+  color: #00b39b;
+  font-size: 32.9px;
+  font-family: Work Sans, Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+  padding-top: 20px;
+  margin: 0 0 10px;
+}
+
+/* General styling for Twin paragraphs */
+.twin_paragraphs {
+  display: flex;
+  color: #747474;
+  font-size: 16px;
+  letter-spacing: 0px;
+  line-height: 1.2;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Arial, Helvetica, "Lucida Grande", sans-serif;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  padding-left: 260px;
+  padding-right: 270px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+/* General styling for first of twin paragraphs */
+.p1 {
+  padding-right: 40px;
+  text-align: justify;
+}
+
+/* General styling for second of twin paragraphs */
+.p2 {
+  text-align: justify;
+}
+
+
+/* For Section */
+
+/* Specific styling for forPatients div */
+.forPatients {
+  background-color: #00ccb1;
+}
+
+/* Specific styling for forDoctors div */
+.forDoctors {
+  background-color: #3d83df;
+}
+
+/* Specific styling for forClinics div */
+.forClinics {
+  background-color: #1b2734;
+}
+
+/* General styling for forPatients, forDoctors, and forClinics divs */
+.forPatients, 
+.forDoctors, 
+.forClinics  {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 32px 32px 0;
+  justify-content: space-between;
+  height: 345px;
+  font-size: 20px;
+  font-weight: 300;
+  color: #fff;
+  margin: 6px 1px;
+  font-family: Work Sans, Arial, sans-serif;
+}
+
+/* General styling for forsection */
+.forsection {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 22px 20.4px 0;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 60px auto 40px;
+  color: #fff;
+  font-family: Work Sans, Arial, sans-serif;
+  max-width: 1015px;
+  padding: 0 20px;
+  position: relative;
+}
+
+/* Specific styling for forPatients listbox */
+.forPatients select {
+  background-color: #00ccb1;
+}
+
+/* Specific styling for forDoctors listbox */
+.forDoctors select {
+  background-color: #3d83df;
+}
+
+/* General styling for forClinics listbox */
+.forClinics select {
+  background-color: #1b2734;
+  border: none;
+  text-decoration: underline;
+  margin-bottom: 30px;
+  font-style: bold;
+}
+
+/* General styling for forPatients and forDoctors listbox */
+.forPatients select,
+.forDoctors select {
+  border: none;
+  text-decoration: underline;
+  margin-bottom: 30px;
+  font-style: bold;
+}
+
+/* General styling for forPatientsTitle, forDoctorsTitle, and forClinicsTitle */
+#forPatientsTitle,
+#forDoctorsTitle, 
+#forClinicsTitle {
+  font-size: 30px;
+  font-weight: 400;
+  color: #fff;
+  margin: 6px 1px;
+  font-family: Work Sans, Arial, sans-serif;
+}
+
+/* General styling for img elements inside forsection */
+.forsection img {
+  width: 25px;
+  height: auto;
+}
+
+
+/* Partner Section */
+
+/* General styling for partnerSection */
+.partnerSection {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+/* General styling for partnerSection div*/
+.partnerSection div {
+  width: 80%;
+  display: flex;
+}
+
+/* General styling for partnerSectionTitle */
+#partnerSectionTitle {
+  font-size: 1.525em;
+  margin: 0.25em 0 0.35em 1.5em;
+  padding-right: 1em;
+  color: #00b39b;
+  font-family: Work Sans, Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+  line-height: 1.02857143;
+}
+
+/* Specific styling for p elements under partnerSectionTitle */
+#partnerSectionTitle p {
+  margin: 0 0 10px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+/* General styling for partnerSectionLogos */
+#partnerSectionLogos {
+  display: flex;
+  gap: 3.0rem;
+  flex-wrap: wrap;
+}
+
+/* General styling for img elements under partnerSectionLogos */
+#partnerSectionLogos img {
+  width: 5.5rem;
+  object-fit: contain;
+}
+
+
+/* Stats Section */
+
+/* General styling for sectionStats */
+.sectionStats {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 55px;
+  background-color: #d0faf4;
+  padding-left: 50px;
+}
+
+/* General styling for sectionStatsheader */
+.sectionStatsheader {
+  font-family: Work Sans, Arial, sans-serif;
+  padding-top: 60px;
+}
+
+/* General styling for h2 elements inside sectionStatsheader */
+.sectionStatsheader h2 {
+  color: #00b39b;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+  padding-left: 50px;
+}
+
+/* General styling for p elements inside sectionStatsheader */
+.sectionStatsheader p {
+  padding-left: 50px;
+  padding-top: 20px;
+  font-size: 15px;
+  color: #747474;
+  padding-bottom: 50px;
+}
+
+/* Specific styling for first2 container of the pair of stat containers */
+.first2 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+/* Specific styling for second2 container of the pair of stat containers */
+.second2 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+/* General styling for the container for the pair of stat containers */
+.sectionStatsfourparts {
+  display: flex;
+  margin-right: 50px;
+  height: 100%;
+  justify-content: space-around;
+  margin-left: 100px;
+}
+
+/* Specific styling for h3 elements in the div container for the pair of stat containers */
+.sectionStatsfourparts h3 {
+  font-size: 30px;
+  color: #00b39b;
+  font-family: Work Sans, Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+}
+
+/* Specific styling for p elements in the div container for the pair of stat containers */
+.sectionStatsfourparts p {
+  font-size: 13px;
+  font-weight: 400;
+  font-family: Roboto, Arial, sans-serif;
+  color: #747474;
+}
+
+/* Specific styling for the leader and appointments subcontainers in the different stat containers */
+#leader,
+#appointments {
+  margin-bottom: 20px;
+}
+
+/*#appointments {
+  margin-bottom: 20px;
+}*/
+
+/* General styling for the leader, patients, appointments and doctors subcontainers in the different stat containers */
+#leader,
+#patients,
+#appointments,
+#doctors {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  text-align: center;
+  width: 220px;
+  border-radius: 2px;
+}
+
+/* General styling for the images inside leader, patients, appointments and doctors subcontainers in the different stat containers */
+#leader img,
+#patients img,
+#appointments img,
+#doctors img {
+  width: 25px;
+  height: auto;
+}
+
+/* General styling for the pair of stat containers */
+.sectionStatsfourparts div {
+  height: 500px;
+  width: 250px;
+}
+
+
+/* Testimony Section */
+
+/* General styling for the Testimony section */
+.sectionTestimony {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 70px;
+  width: 100%;
+}
+
+/* General styling for the h3 elements inside Testimony section */
+.sectionTestimony h3 {
+  font-size: 34px;
+  color: #00b39b;
+  /*font-family: Work Sans, Arial, sans-serif;
+  font-weight: 300;*/
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  line-height: 1.42857143;
+  letter-spacing: -0.5px;
+  text-align: center;
+}
+
+/* General styling for the p elements inside Testimony section */
+.sectionTestimony p {
+  margin: 25.6px 0;
+  line-height: 27px;
+  text-align: center;
+  font-weight: 400;
+  font-family: Roboto, Arial, sans-serif;
+  color: #747474;
+}
+
+
+/* Country Section */
+
+/* General styling for the Country section */
+.sectionCountry {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5cm;
+  justify-content: center;
+}
+
+/* General styling for the div containers inside Country section */
+.sectionCountry div {
+  border-radius: 3%;
+  margin: 0.44%;
+}
+
+/* General styling for the buttons inside Country section */
+.sectionCountry button {
+  margin-top: 0.5cm;
+  display: flex;
+  gap: 2cm;
+  justify-content: center;
+  background: #3d83df;
+  line-height: 16px;
+  color: #fff;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-align: center;
+  outline: 0;
+  border: 0;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-family: Roboto, Arial, sans-serif;
+  margin-right: 20px;
+  align-items: center;
+  padding-right: 10px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+/* General styling for the p elements inside Country section */
+.sectionCountry p {
+  font-size: medium;
+  color: #747474;
+  font-family: Roboto, Arial, sans-serif;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+/* Specific styling for the  country div container inside Country section */
+.country {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+/* Specific hover styling for the div containers inside Country section */
+.country div:hover {
+  box-shadow: 0 -6px 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Specific styling for the buttons inside div containers in Country section */
+div .buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+/* Openings Section */
+
+/* General styling for the Openings section */
+.sectionOpenings {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* General styling for the h1 elements inside Openings section */
+.sectionOpenings h1 {
+  font-size: 34px;
+  color: #333;
+  margin-bottom: 0.75em;
+  font-family: Work Sans, Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+  text-align: center;
+}
+
+/* General styling for the buttons inside Openings section */
+.sectionOpenings button {
+  margin-left: 120px;
+  background-color: #3d83df;
+  color: #fff;
+  font-family: Roboto, Arial, sans-serif;
+  border-radius: 4px;
+  text-align: center;
+  border: #fff;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 14px;
+  padding-right: 14px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+
+/* Footer*/
+
+/* General styling for the footer */
+footer {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 12px;
+  font-family: Roboto, Arial, sans-serif;
+  color: #ababab;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+/* General styling for a elements inside the footer */
+footer a {
+  color: #337ab7;
+  text-decoration: none;
+}
+
+/* General styling for p elements inside the footer */
+footer p {
+  padding-top: 20px;
+}
